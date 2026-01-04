@@ -8,7 +8,7 @@ local localPlayer = Players.LocalPlayer
 _G.AimPart = "Head"
 _G.HoldKey = Enum.KeyCode.Q
 _G.ActivationRange = 80      -- smaller = stricter aim range
-_G.Strength = 1             -- 1 = HARD LOCK
+_G.Strength = 1             -- 1 = basically glue
 
 local aiming = false
 local currentTarget = nil
@@ -66,7 +66,7 @@ RunService.RenderStepped:Connect(function()
 
     local mousePos = UserInputService:GetMouseLocation()
 
-    -- so i kinda made a lil whoopsie and fucked up the target validation before, this fixes it so we only aim at alive players and don't get stuck on missing parts
+    -- so i kinda made a lil whoopsie and fucked up the target validation, sooo this fixes it so we only aim at alive players and don't get stuck on missing parts
     if currentTarget then
         local char = currentTarget.Character
         local hum = char and char:FindFirstChild("Humanoid")
