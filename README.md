@@ -23,7 +23,7 @@ The goal is to centralize multiple commonly used exploits into a single hub whil
 - Loader: 🟡 in progress  
 - Core systems: 🟡 in progress  
 - Modules: 🔴 early development  
-- UI: 🔴 currently looking for one 
+- UI: 🟡 decided to use WindUI
 - Public release: ❌ not ready  
 
 #
