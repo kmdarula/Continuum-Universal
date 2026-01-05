@@ -11,27 +11,26 @@ Expect bugs, missing features, breaking changes, and experimental behavior.
 ## Information
 Continuum is a **universal Roblox exploit script hub** focused on:
 
-- modular exploit scripts
-- runtime toggles and hot‑swapping
-- minimal re-execution
-- cross‑game compatibility where possible
-- clean and controllable internals
+- modular exploit framework
+- designed to function across multiple games (obviously)
+- clean internals
 
-The goal is to centralize multiple exploit systems into a single, expandable hub while keeping performance and flexibility in mind.
+
+The goal is to centralize multiple commonly used exploits into a single hub while keeping performance and flexibility in mind.
 
 #
 ## Current Status
 - Loader: 🟡 in progress  
 - Core systems: 🟡 in progress  
 - Modules: 🔴 early development  
-- UI: 🔴 not finalized  
+- UI: 🔴 currently looking for one 
 - Public release: ❌ not ready  
 
 #
 ## Notes
 This project is experimental.
 
-There is **no guarantee of stability**, safety, or compatibility.
+There is **no guarantee of stability**, safety, or compatibility, you may get banned.
 Scripts may change or be removed without notice.
 
 Documentation, usage instructions, and module lists will be added as the project matures.
